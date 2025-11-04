@@ -2,17 +2,16 @@ import React, { useState, useEffect } from 'react';
 
 const slides = [
   {
-    image: 'https://picsum.photos/seed/hero1/1200/400',
-    title: 'Discover the Future',
+    image: 'https://i.postimg.cc/cJnsjQ12/Must-Have-Tech-gadgets.jpg',
     subtitle: 'Shop the latest trends in electronics, fashion, and more. Unbeatable prices, unmatched quality.',
   },
   {
-    image: 'https://picsum.photos/seed/hero2/1200/400',
+    image: 'https://i.postimg.cc/Jz7D9YS6/JBL-wireless-earbuds.jpg',
     title: 'Bestsellers of the Week',
     subtitle: 'Explore our top-rated products loved by customers worldwide. Don\'t miss out on these deals!',
   },
   {
-    image: 'https://picsum.photos/seed/hero3/1200/400',
+    image: 'https://i.postimg.cc/6Q92xjS1/5-Things-To-Consider-Before-Buying-A-Wireless-Bluetooth-Speaker.jpg',
     title: 'New Arrivals',
     subtitle: 'Fresh picks and new collections have just landed. Be the first to own the next big thing.',
   }

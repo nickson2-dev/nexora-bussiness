@@ -271,4 +271,6 @@ const HomePage: React.FC<HomePageProps> = ({ navigateTo, initialCategory = null 
   );
 };
 
+
+
 export default HomePage;
