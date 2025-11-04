@@ -3,7 +3,7 @@ import { Product, Category, User, Order, SupportTicket } from '../types';
 export const mockCategories: Category[] = [
   { 
     name: 'Electronics, Computers & Office', 
-    imageUrl: 'https://picsum.photos/seed/electronics/400/300',
+    imageUrl: 'https://i.postimg.cc/Jz7D9YS6/JBL-wireless-earbuds.jpg',
     subcategories: [
       { 
         name: 'Computers & Accessories',
