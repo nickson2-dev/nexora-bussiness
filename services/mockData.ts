@@ -283,7 +283,7 @@ export const mockProducts: Product[] = [
     price: 499.00,
     originalPrice: 599.00,
     category: 'Cameras & Drones',
-    images: ['https://picsum.photos/seed/drone1/600/600', 'https://picsum.photos/seed/drone2/600/600'],
+    images: ['https://i.postimg.cc/dVgQcyRT/KBDFA-F194-4K-Drone-GPS-Precision-Dual-Camera-Power.jpg', 'https://picsum.photos/seed/drone2/600/600'],
     rating: 4.9,
     reviewCount: 650,
     stock: 40,
@@ -299,7 +299,7 @@ export const mockProducts: Product[] = [
     description: 'A sophisticated timepiece with a genuine leather strap and stainless steel case. Water-resistant up to 50m.',
     price: 159.99,
     category: 'Jewelry & Watches',
-    images: ['https://picsum.photos/seed/watch1/600/600', 'https://picsum.photos/seed/watch2/600/600'],
+    images: ['https://i.postimg.cc/pL3VMFQD/from-T-to-Papa.jpg', 'https://picsum.photos/seed/watch2/600/600'],
     rating: 4.7,
     reviewCount: 880,
     stock: 70,
@@ -314,7 +314,7 @@ export const mockProducts: Product[] = [
     description: 'A curated selection of 12 premium organic green teas from around the world. The perfect gift for tea lovers.',
     price: 29.99,
     category: 'Kitchen & Dining',
-    images: ['https://picsum.photos/seed/tea1/600/600'],
+    images: ['https://i.postimg.cc/NjZGvH8D/simple-modern-elegant-nature-organic-tea-packaging-branding-design.jpg'],
     rating: 4.9,
     reviewCount: 420,
     stock: 90,
@@ -331,7 +331,7 @@ export const mockProducts: Product[] = [
     price: 15.99,
     originalPrice: 26.00,
     category: 'Fantasy',
-    images: ['https://picsum.photos/seed/book4/600/600'],
+    images: ['https://i.postimg.cc/kgLMPbNp/The-Midnight-Library-Matt-Haig.jpg'],
     rating: 4.6,
     reviewCount: 18000,
     stock: 150,
@@ -344,57 +344,57 @@ export const mockProducts: Product[] = [
   // New Products for Laptops Category
   {
     id: 17, name: 'ZenBook Ultra-Slim Laptop', price: 999.99, category: 'Laptops', brand: 'Asus', condition: 'New', seller: 'Tech Emporium',
-    description: 'Powerful and portable with an OLED display.', images: ['https://picsum.photos/seed/laptop1/600/600'], rating: 4.8, reviewCount: 450, stock: 30, reviews: []
+    description: 'Powerful and portable with an OLED display.', images: ['https://i.postimg.cc/pL3VMFQ1/ASUS-Zen-Book-13-UX331UA-Ultra-Slim-Laptop-13-3-Full-HD-Wide-View-display-8th-gen-Intel-Core-i7-8550.jpg'], rating: 4.8, reviewCount: 450, stock: 30, reviews: []
   },
   {
     id: 18, name: 'Spectre x360 2-in-1', price: 1249.00, category: 'Laptops', brand: 'HP', condition: 'New', seller: 'Gadget Galaxy',
-    description: 'Versatile 2-in-1 laptop with a stunning design.', images: ['https://picsum.photos/seed/laptop2/600/600'], rating: 4.7, reviewCount: 320, stock: 25, reviews: []
+    description: 'Versatile 2-in-1 laptop with a stunning design.', images: ['https://i.postimg.cc/ZYgy5CLF/HP-Spectre-x360-13in-Convertible-Laptop-Rose-Gold-Windows-11-Pro-Touchscreen-i7.jpg'], rating: 4.7, reviewCount: 320, stock: 25, reviews: []
   },
   {
     id: 19, name: 'IdeaPad Gaming 3', price: 799.50, category: 'Laptops', brand: 'Lenovo', condition: 'New', seller: 'Tech Emporium',
-    description: 'Entry-level gaming laptop with great performance.', images: ['https://picsum.photos/seed/laptop3/600/600'], rating: 4.5, reviewCount: 600, stock: 50, reviews: []
+    description: 'Entry-level gaming laptop with great performance.', images: ['https://i.postimg.cc/P50fnwbB/Lenovo-Idea-Pad-Gaming-3-Ordinateur-Portable-15-AMD-Ryzen-5-8-Go-de-RAM-512-Go-de-SSD-NVID.jpg'], rating: 4.5, reviewCount: 600, stock: 50, reviews: []
   },
   {
     id: 20, name: 'MacBook Air M2', price: 1199.00, category: 'Laptops', brand: 'Apple', condition: 'New', seller: 'Apple Official',
-    description: 'Incredibly thin and fast with the Apple M2 chip.', images: ['https://picsum.photos/seed/laptop4/600/600'], rating: 4.9, reviewCount: 1100, stock: 40, isBestseller: true, reviews: []
+    description: 'Incredibly thin and fast with the Apple M2 chip.', images: ['https://i.postimg.cc/VLnHZFbZ/Two-Mac-Book-Air-M2-Midnight-Mockup-Free-Download-Images-High-Quality-PNG-JPG-108660.jpg'], rating: 4.9, reviewCount: 1100, stock: 40, isBestseller: true, reviews: []
   },
   {
     id: 21, name: 'Surface Laptop 5', price: 1099.99, category: 'Laptops', brand: 'Microsoft', condition: 'New', seller: 'Microsoft Store',
-    description: 'Sleek, elegant, and powerful for productivity.', images: ['https://picsum.photos/seed/laptop5/600/600'], rating: 4.6, reviewCount: 250, stock: 35, reviews: []
+    description: 'Sleek, elegant, and powerful for productivity.', images: ['https://i.postimg.cc/kgLMPbF3/Laptop-Microsoft-Surface-5-Retail-Intel-Evo-I7-Reacondicionada.jpg'], rating: 4.6, reviewCount: 250, stock: 35, reviews: []
   },
   {
     id: 22, name: 'Chromebook Spin 713', price: 649.00, category: 'Laptops', brand: 'Acer', condition: 'New', seller: 'Gadget Galaxy',
-    description: 'A premium Chromebook with a high-resolution screen.', images: ['https://picsum.photos/seed/laptop6/600/600'], rating: 4.4, reviewCount: 400, stock: 60, reviews: []
+    description: 'A premium Chromebook with a high-resolution screen.', images: ['https://i.postimg.cc/VNMffk4G/Acer-Chromebook-Spin-713-13-50-256-GB-8-GB-DE-Intel-Core-i3-1115G4-Notebook-Grau.jpg'], rating: 4.4, reviewCount: 400, stock: 60, reviews: []
   },
   {
     id: 23, name: 'Used ThinkPad T480', price: 350.00, category: 'Laptops', brand: 'Lenovo', condition: 'Used', seller: 'PC Recyclers',
-    description: 'A reliable business laptop with a great keyboard.', images: ['https://picsum.photos/seed/laptop7/600/600'], rating: 4.9, reviewCount: 800, stock: 15, reviews: []
+    description: 'A reliable business laptop with a great keyboard.', images: ['https://i.postimg.cc/k58JJgwp/Lenovo-Think-Pad-T480s-Laptop.jpg'], rating: 4.9, reviewCount: 800, stock: 15, reviews: []
   },
 
   // New Products for Monitors Category
   {
     id: 24, name: 'UltraSharp 27" 4K Monitor', price: 599.99, category: 'Monitors', brand: 'Dell', condition: 'New', seller: 'Tech Emporium',
-    description: 'Stunning 4K resolution with superb color accuracy.', images: ['https://picsum.photos/seed/monitor1/600/600'], rating: 4.9, reviewCount: 780, stock: 40, isBestseller: true, reviews: []
+    description: 'Stunning 4K resolution with superb color accuracy.', images: ['https://i.postimg.cc/d0dssV4P/Dell-Ultra-Sharp-27-4K-Thunderbolt-Hub-Monitor-U2725QE-Dell-USA.jpg'], rating: 4.9, reviewCount: 780, stock: 40, isBestseller: true, reviews: []
   },
   {
     id: 25, name: 'Odyssey G7 32" Curved Gaming Monitor', price: 699.00, category: 'Monitors', brand: 'Samsung', condition: 'New', seller: 'Gadget Galaxy',
-    description: 'Immersive gaming experience with 240Hz refresh rate.', images: ['https://picsum.photos/seed/monitor2/600/600'], rating: 4.7, reviewCount: 950, stock: 30, isTrending: true, reviews: []
+    description: 'Immersive gaming experience with 240Hz refresh rate.', images: ['https://i.postimg.cc/YSgrrCbw/SAMSUNG-55-Odyssey-Ark-2nd-Gen-4K-UHD-1000R-Curved-Gaming-Monitor-165Hz-1ms-4-Input-Multi-View.jpg'], rating: 4.7, reviewCount: 950, stock: 30, isTrending: true, reviews: []
   },
   {
     id: 26, name: 'LG 34" Ultrawide Monitor', price: 449.50, category: 'Monitors', brand: 'LG', condition: 'New', seller: 'Tech Emporium',
-    description: 'Perfect for multitasking with a 21:9 aspect ratio.', images: ['https://picsum.photos/seed/monitor3/600/600'], rating: 4.6, reviewCount: 1200, stock: 50, reviews: []
+    description: 'Perfect for multitasking with a 21:9 aspect ratio.', images: ['https://i.postimg.cc/7L7HHZm6/LG-Ultra-Wide-5K2K-UHD-Curved-Gaming-Monitor-72Hz-Refresh-Rate-AMD-Free-Sync-HDR10-Support-39-7-S.jpg'], rating: 4.6, reviewCount: 1200, stock: 50, reviews: []
   },
   {
     id: 27, name: 'BenQ 24" Professional Monitor', price: 250.00, category: 'Monitors', brand: 'BenQ', condition: 'New', seller: 'Gadget Galaxy',
-    description: 'Budget-friendly monitor for creative professionals.', images: ['https://picsum.photos/seed/monitor4/600/600'], rating: 4.5, reviewCount: 550, stock: 60, reviews: []
+    description: 'Budget-friendly monitor for creative professionals.', images: ['https://i.postimg.cc/J7gBzGQH/Ben-Q-GW2480T-23-8-Inch-Monitor.jpg'], rating: 4.5, reviewCount: 550, stock: 60, reviews: []
   },
   {
     id: 28, name: 'ASUS ProArt 32" 4K Monitor', price: 899.99, category: 'Monitors', brand: 'Asus', condition: 'New', seller: 'Creative Tools Inc.',
-    description: 'Calman verified monitor for content creators.', images: ['https://picsum.photos/seed/monitor5/600/600'], rating: 4.8, reviewCount: 310, stock: 20, reviews: []
+    description: 'Calman verified monitor for content creators.', images: ['https://i.postimg.cc/SK8SSxDS/Asus-31-5-Pro-Art-Display-OLED-4K-UHD-Professional-Monitor-PA32UCDM-QD-OLED-Ultra-slim-3840.jpg'], rating: 4.8, reviewCount: 310, stock: 20, reviews: []
   },
   {
     id: 29, name: 'ViewSonic 22" 1080p Monitor', price: 119.99, category: 'Monitors', brand: 'ViewSonic', condition: 'New', seller: 'Office Supplies Co.',
-    description: 'A great value monitor for everyday use.', images: ['https://picsum.photos/seed/monitor6/600/600'], rating: 4.3, reviewCount: 2500, stock: 100, reviews: []
+    description: 'A great value monitor for everyday use.', images: ['https://i.postimg.cc/YSgrrCbh/View-Sonic-VS2247-MH-Moniteur-22-1080p-avec-100-Hz-Free-Sync-cadres-fins-soin-des-yeux-entrees-HD.jpg'], rating: 4.3, reviewCount: 2500, stock: 100, reviews: []
   },
 
   // New Products for Fantasy Books Category

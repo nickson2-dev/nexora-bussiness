@@ -54,9 +54,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onClick }) => {
         </div>
         <div className="mt-auto flex items-baseline justify-between">
             <div>
-              <span className="text-2xl font-bold text-primary">${product.price.toFixed(2)}</span>
+              <span className="text-2xl font-bold text-primary">UGX{product.price.toFixed(2)}</span>
               {product.originalPrice && (
-                  <span className="text-sm text-gray-400 line-through ml-2">${product.originalPrice.toFixed(2)}</span>
+                  <span className="text-sm text-gray-400 line-through ml-2">UGX{product.originalPrice.toFixed(2)}</span>
               )}
             </div>
             <button className="text-secondary hover:text-secondary-focus transition-colors">
