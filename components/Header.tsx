@@ -74,11 +74,11 @@ const Header: React.FC<HeaderProps> = ({ navigateTo, goBack, canGoBack, user, on
         <div className="bg-primary-focus text-xs">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-8">
                 <div className="flex items-center space-x-4">
-                  <span>Welcome to Nexora!</span>
+                  <span>Welcome to Next!</span>
                 </div>
                 <div className="flex items-center space-x-6">
                     <button onClick={() => navigateTo('customerservice')} className="hover:text-secondary transition-colors">Help & Contact</button>
-                    <a href="#" className="hover:text-secondary transition-colors">Sell on Nexora</a>
+                    <a href="#" className="hover:text-secondary transition-colors">Sell on Next</a>
                 </div>
             </div>
         </div>
