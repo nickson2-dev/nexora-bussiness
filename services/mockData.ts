@@ -400,112 +400,112 @@ export const mockProducts: Product[] = [
   // New Products for Fantasy Books Category
   {
     id: 30, name: 'A Game of Thrones', price: 9.99, category: 'Fantasy', brand: 'Bantam Spectra', condition: 'New', seller: 'Bookworm Deals',
-    description: 'The first book in the epic A Song of Ice and Fire series.', images: ['https://picsum.photos/seed/fantasy1/600/600'], rating: 4.7, reviewCount: 45000, stock: 200, reviews: []
+    description: 'The first book in the epic A Song of Ice and Fire series.',  images: ['https://i.postimg.cc/MT3w8tF6/A-Game-of-Thrones-Book-1-of-A-Song-of-Ice-and-Fire.jpg'], rating: 4.7, reviewCount: 45000, stock: 200, reviews: []
   },
   {
     id: 31, name: 'The Name of the Wind', price: 14.50, category: 'Fantasy', brand: 'DAW Books', condition: 'New', seller: 'Bookworm Deals',
-    description: 'The first book of The Kingkiller Chronicle by Patrick Rothfuss.', images: ['https://picsum.photos/seed/fantasy2/600/600'], rating: 4.8, reviewCount: 38000, stock: 150, isBestseller: true, reviews: []
+    description: 'The first book of The Kingkiller Chronicle by Patrick Rothfuss.', images: ['https://i.postimg.cc/wv4zdFGg/19-Best-High-Fantasy-Books-That-Will-Enchant-Your-Imagination-Fly-Into-Books.jpg'], rating: 4.8, reviewCount: 38000, stock: 150, isBestseller: true, reviews: []
   },
   {
     id: 32, name: 'Mistborn: The Final Empire', price: 12.99, category: 'Fantasy', brand: 'Tor Books', condition: 'New', seller: 'Bookworm Deals',
-    description: 'Brandon Sanderson\'s epic fantasy masterpiece.', images: ['https://picsum.photos/seed/fantasy3/600/600'], rating: 4.9, reviewCount: 32000, stock: 180, reviews: []
+    description: 'Brandon Sanderson\'s epic fantasy masterpiece.', images: ['https://i.postimg.cc/XJ1W0xzY/Mistborn-The-Final-Empire.jpg'], rating: 4.9, reviewCount: 32000, stock: 180, reviews: []
   },
   {
     id: 33, name: 'The Hobbit', price: 8.99, category: 'Fantasy', brand: 'Mariner Books', condition: 'New', seller: 'Bookworm Deals',
-    description: 'J.R.R. Tolkien\'s classic prelude to The Lord of the Rings.', images: ['https://picsum.photos/seed/fantasy4/600/600'], rating: 4.9, reviewCount: 65000, stock: 300, reviews: []
+    description: 'J.R.R. Tolkien\'s classic prelude to The Lord of the Rings.', images: ['https://i.postimg.cc/j5ST9BZS/Best-Adventure-Books-of-All-Time.jpg'], rating: 4.9, reviewCount: 65000, stock: 300, reviews: []
   },
   {
     id: 34, name: 'The Way of Kings', price: 15.99, category: 'Fantasy', brand: 'Tor Books', condition: 'New', seller: 'Bookworm Deals',
-    description: 'The first book in The Stormlight Archive by Brandon Sanderson.', images: ['https://picsum.photos/seed/fantasy5/600/600'], rating: 4.9, reviewCount: 41000, stock: 120, reviews: []
+    description: 'The first book in The Stormlight Archive by Brandon Sanderson.', images: ['https://i.postimg.cc/j53TrvF2/The-Way-of-Kings-The-Stormlight-Archive-1.jpg'], rating: 4.9, reviewCount: 41000, stock: 120, reviews: []
   },
   {
     id: 35, name: 'Good Omens', price: 11.99, category: 'Fantasy', brand: 'William Morrow', condition: 'New', seller: 'Bookworm Deals',
-    description: 'A hilarious novel by Terry Pratchett and Neil Gaiman.', images: ['https://picsum.photos/seed/fantasy6/600/600'], rating: 4.7, reviewCount: 29000, stock: 160, reviews: []
+    description: 'A hilarious novel by Terry Pratchett and Neil Gaiman.', images: ['https://i.postimg.cc/mDp4GV5h/good-omens-book-cover.jpg'], rating: 4.7, reviewCount: 29000, stock: 160, reviews: []
   },
 
   // More Products for Smartphones
   {
     id: 36, name: 'Pixel 8 Pro', price: 999.00, category: 'Smartphones', brand: 'Google', condition: 'New', seller: 'Google Store',
-    description: 'The most advanced Pixel camera ever.', images: ['https://picsum.photos/seed/phone1/600/600'], rating: 4.8, reviewCount: 1500, stock: 80, reviews: []
+    description: 'The most advanced Pixel camera ever.', images: ['https://i.postimg.cc/1t7SZMjg/Amazon-com-Google-Pixel-8-Pro-Unlocked-Android-Smartphone-with-Telephoto-Lens-and-Super-Actua-Dis.jpg'], rating: 4.8, reviewCount: 1500, stock: 80, reviews: []
   },
   {
     id: 37, name: 'iPhone 15 Pro', price: 1099.00, category: 'Smartphones', brand: 'Apple', condition: 'New', seller: 'Apple Official',
-    description: 'Forged in titanium, with the powerful A17 Pro chip.', images: ['https://picsum.photos/seed/phone2/600/600'], rating: 4.9, reviewCount: 2200, stock: 100, isBestseller: true, reviews: []
+    description: 'Forged in titanium, with the powerful A17 Pro chip.', images: ['https://i.postimg.cc/TwNxXQ45/Apple-i-Phone-15-Pro-256GB-Natural-Titanium-Unlocked-Very-Good-Condition.jpg'], rating: 4.9, reviewCount: 2200, stock: 100, isBestseller: true, reviews: []
   },
   {
     id: 38, name: 'Galaxy S24 Ultra', price: 1299.99, category: 'Smartphones', brand: 'Samsung', condition: 'New', seller: 'Samsung Official',
-    description: 'Unleash new levels of creativity and productivity.', images: ['https://picsum.photos/seed/phone3/600/600'], rating: 4.8, reviewCount: 1800, stock: 70, reviews: []
+    description: 'Unleash new levels of creativity and productivity.', images: ['https://i.postimg.cc/vB2ydXNV/Samsung-Galaxy-S24-Ultra-Unlock-the-Power-of-Seamless-Connectivity.jpg'], rating: 4.8, reviewCount: 1800, stock: 70, reviews: []
   },
   {
     id: 39, name: 'OnePlus 12', price: 799.00, category: 'Smartphones', brand: 'OnePlus', condition: 'New', seller: 'Tech Emporium',
-    description: 'The return of the flagship killer with a Hasselblad camera.', images: ['https://picsum.photos/seed/phone4/600/600'], rating: 4.7, reviewCount: 900, stock: 50, reviews: []
+    description: 'The return of the flagship killer with a Hasselblad camera.', images: ['https://i.postimg.cc/cHkWNTb3/download.jpg'], rating: 4.7, reviewCount: 900, stock: 50, reviews: []
   },
   {
     id: 40, name: 'Used iPhone 13', price: 550.00, category: 'Smartphones', brand: 'Apple', condition: 'Used', seller: 'PC Recyclers',
-    description: 'A great value iPhone in excellent condition.', images: ['https://picsum.photos/seed/phone5/600/600'], rating: 4.9, reviewCount: 3500, stock: 40, reviews: []
+    description: 'A great value iPhone in excellent condition.', images: ['https://i.postimg.cc/TwNxXQ4m/used-Pre-owned-Apple-i-Phone-13-128gb-Midnight-LTE-Cellular-Straight-Talk-Trac-Fone-Mlml3ll-a-TF-Bl.jpg'], rating: 4.9, reviewCount: 3500, stock: 40, reviews: []
   },
   {
     id: 41, name: 'Moto G Stylus 2023', price: 199.99, category: 'Smartphones', brand: 'Motorola', condition: 'New', seller: 'Gadget Galaxy',
-    description: 'A budget-friendly phone with a built-in stylus.', images: ['https://picsum.photos/seed/phone6/600/600'], rating: 4.4, reviewCount: 1200, stock: 120, reviews: []
+    description: 'A budget-friendly phone with a built-in stylus.', images: ['https://i.postimg.cc/3RfhH9cm/Motorola-Moto-G-Stylus-2023-Unlocked-15-169-00.jpg'], rating: 4.4, reviewCount: 1200, stock: 120, reviews: []
   },
 
   // More Products for Kitchen & Dining
   {
     id: 42, name: 'Instant Pot Duo 7-in-1', price: 89.99, category: 'Kitchen & Dining', brand: 'Instant Pot', condition: 'New', seller: 'Kitchen Experts',
-    description: 'Pressure cooker, slow cooker, rice cooker, and more.', images: ['https://picsum.photos/seed/kitchen1/600/600'], rating: 4.8, reviewCount: 85000, stock: 150, isBestseller: true, reviews: []
+    description: 'Pressure cooker, slow cooker, rice cooker, and more.', images: ['https://i.postimg.cc/MT3w8tFy/Instant-Pot-Duo-7-in-1-Electric-Pressure-Cooker.jpg'], rating: 4.8, reviewCount: 85000, stock: 150, isBestseller: true, reviews: []
   },
   {
     id: 43, name: 'Ninja Air Fryer XL', price: 129.99, category: 'Kitchen & Dining', brand: 'Ninja', condition: 'New', seller: 'Kitchen Experts',
-    description: 'Crisp and cook your favorite foods with less oil.', images: ['https://picsum.photos/seed/kitchen2/600/600'], rating: 4.9, reviewCount: 45000, stock: 100, reviews: []
+    description: 'Crisp and cook your favorite foods with less oil.', images: ['https://i.postimg.cc/LXQSMvbj/Ninja-Air-Fryer-XL.jpg'], rating: 4.9, reviewCount: 45000, stock: 100, reviews: []
   },
   {
     id: 44, name: 'Lodge Cast Iron Skillet', price: 24.99, category: 'Kitchen & Dining', brand: 'Lodge', condition: 'New', seller: 'Gourmet Goods',
-    description: 'A pre-seasoned skillet for a lifetime of cooking.', images: ['https://picsum.photos/seed/kitchen3/600/600'], rating: 4.7, reviewCount: 65000, stock: 200, reviews: []
+    description: 'A pre-seasoned skillet for a lifetime of cooking.', images: ['https://i.postimg.cc/9Mg2j1nP/Lodge-Cast-Iron-Skillet-10.jpg'], rating: 4.7, reviewCount: 65000, stock: 200, reviews: []
   },
   {
     id: 45, name: 'Vitamix Explorian Blender', price: 349.95, category: 'Kitchen & Dining', brand: 'Vitamix', condition: 'New', seller: 'Wellness World',
-    description: 'Professional-grade blender for smoothies, soups, and more.', images: ['https://picsum.photos/seed/kitchen4/600/600'], rating: 4.9, reviewCount: 12000, stock: 30, reviews: []
+    description: 'Professional-grade blender for smoothies, soups, and more.', images: ['https://i.postimg.cc/JnY8WK2c/ad-e-Bay-Vitamix-Explorian-E310-High-Performance-Blender-White.jpg'], rating: 4.9, reviewCount: 12000, stock: 30, reviews: []
   },
   {
     id: 46, name: 'Corelle Dinnerware Set', price: 49.99, category: 'Kitchen & Dining', brand: 'Corelle', condition: 'New', seller: 'Home Essentials',
-    description: '18-piece, chip-resistant dinnerware set for 6.', images: ['https://picsum.photos/seed/kitchen5/600/600'], rating: 4.6, reviewCount: 22000, stock: 80, reviews: []
+    description: '18-piece, chip-resistant dinnerware set for 6.', images: ['https://i.postimg.cc/DZphK5M6/Corelle-Dinnerware-Sets.jpg'], rating: 4.6, reviewCount: 22000, stock: 80, reviews: []
   },
   {
     id: 47, name: 'Keurig K-Classic Coffee Maker', price: 109.99, category: 'Kitchen & Dining', brand: 'Keurig', condition: 'New', seller: 'Kitchen Experts',
-    description: 'Brews a perfect cup of coffee in under a minute.', images: ['https://picsum.photos/seed/kitchen6/600/600'], rating: 4.5, reviewCount: 55000, stock: 120, reviews: []
+    description: 'Brews a perfect cup of coffee in under a minute.', images: ['https://i.postimg.cc/HxvmC3ht/Keurig-K-Classic-K55-Single-Serve-K-Cup-Pod-Coffee-Maker-Patriot-Blue-6-to-10-oz-Brew-Sizes.jpg'], rating: 4.5, reviewCount: 55000, stock: 120, reviews: []
   },
   {
     id: 48, name: 'Cuisinart 12-Piece Cookware Set', price: 199.99, originalPrice: 249.99, category: 'Kitchen & Dining', brand: 'Cuisinart', condition: 'New', seller: 'Home Essentials',
-    description: 'Stainless steel cookware set for all your kitchen needs.', images: ['https://picsum.photos/seed/kitchen7/600/600'], rating: 4.7, reviewCount: 9500, stock: 60, reviews: []
+    description: 'Stainless steel cookware set for all your kitchen needs.', images: ['https://i.postimg.cc/mDp4GV5V/Cuisinart-12-Piece-Stainless-Steel-Cookware-Set-Walmart-com.jpg'], rating: 4.7, reviewCount: 9500, stock: 60, reviews: []
   },
   {
     id: 49, name: 'Simple Modern Water Bottle', price: 19.99, category: "Women's Fashion", brand: 'Simple Modern', condition: 'New', seller: 'Style Co.',
-    description: 'Insulated stainless steel water bottle with straw lid.', images: ['https://picsum.photos/seed/bottle1/600/600'], rating: 4.9, reviewCount: 110000, stock: 300, reviews: []
+    description: 'Insulated stainless steel water bottle with straw lid.', images: ['https://i.postimg.cc/SRXhQ8BM/1L-Insulated-Water-Bottle-Black-ONE.jpg'], rating: 4.9, reviewCount: 110000, stock: 300, reviews: []
   },
   {
     id: 50, name: 'Ergonomic Office Chair', price: 219.99, originalPrice: 279.99, category: 'Furniture', brand: 'ErgoChair', condition: 'New', seller: 'Office Supplies Co.',
-    description: 'Adjustable mesh office chair with lumbar support.', images: ['https://picsum.photos/seed/chair1/600/600'], rating: 4.6, reviewCount: 4500, stock: 50, reviews: []
+    description: 'Adjustable mesh office chair with lumbar support.', images: ['https://i.postimg.cc/Y04H2g51/NOBLEWELL-Ergonomic-Office-Chair-Desk-Chair-with-2-Adjustable-Lumbar-Support-Headrest-2D-Armres.jpg'], rating: 4.6, reviewCount: 4500, stock: 50, reviews: []
   },
   {
     id: 51, name: 'Dune by Frank Herbert', price: 10.99, category: 'Science Fiction', brand: 'Ace Books', condition: 'New', seller: 'Bookworm Deals',
-    description: 'The landmark science fiction epic.', images: ['https://picsum.photos/seed/scifi1/600/600'], rating: 4.8, reviewCount: 28000, stock: 180, reviews: []
+    description: 'The landmark science fiction epic.', images: ['https://i.postimg.cc/mkcsZMv3/Libro-Dios-Emperador-De-Dune-dune-4-Frank-Herbert.jpg'], rating: 4.8, reviewCount: 28000, stock: 180, reviews: []
   },
   {
     id: 52, name: 'Sony WH-1000XM5 Headphones', price: 399.00, category: 'Computer Accessories', brand: 'Sony', condition: 'New', seller: 'Sony Official',
-    description: 'Industry-leading noise canceling headphones.', images: ['https://picsum.photos/seed/headphone4/600/600'], rating: 4.9, reviewCount: 5500, stock: 60, isBestseller: true, reviews: []
+    description: 'Industry-leading noise canceling headphones.', images: ['https://i.postimg.cc/x8k2jHwv/Sony-WH-1000XM5-Noise-Cancelling-Headphones.jpg'], rating: 4.9, reviewCount: 5500, stock: 60, isBestseller: true, reviews: []
   }
 ];
 
 
 export const mockUser: User = {
     id: 1,
-    name: 'Jessica Jones',
-    email: 'jessica.j@example.com',
+    name: 'nick zube',
+    email: 'next.j@example.com',
     address: {
-        street: '123 Main St',
-        city: 'Metropolis',
-        state: 'NY',
-        zip: '10001',
+        street: '102 main st',
+        city: 'kampala',
+        state: 'UG',
+        zip: '102',
     }
 };
 
