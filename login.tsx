@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-import { auth, googleProvider } from "./firebaseConfig";
-import { useNavigate } from "react-router-dom";
+import { auth, googleProvider } from "./firebase";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import Button from "./components/Button";
+import PhoneLoginPage from "./PhoneLoginPage";
+import AccountPage from "./pages/AccountPage";
+
+// Routing should be defined in your App component (e.g. App.tsx); removed top-level Routes from this file.
+
 
 const LoginPage: React.FC = () => {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useAuth } from "../AuthContext";
-import { auth } from "../firebaseConfig";
+import { auth } from "../firebase";
 import {
   updateProfile,
   sendEmailVerification,
